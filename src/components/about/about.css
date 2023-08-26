@@ -14,17 +14,17 @@
 
 .text-content > div {
     width: 100%;
-    height: 600px;
+    height: 550px;
     /* border: 1px solid black; */
     padding-top: 0%;
 }
 
 .text-content > div h1{
-    font-size: 70px;
+    font-size: 57px;
     background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
     background-clip: text;
     color: transparent;
-    margin-top:10%
+    margin-top:10%;
 }
 .text-content > div p{
     font-size: 30px;
@@ -33,8 +33,9 @@
     margin-bottom: 10%;
 }
 
-.text-content > div a{
+.text-content > div button{
     padding: 19px 25px;
+    background-color: transparent;
     border: 1px solid blue;
     color: blue;
     text-decoration: none;
@@ -44,9 +45,15 @@
     width:220px;
     justify-content: space-between;
     align-items: center;
-    gap:30px;
+    gap:10px;
+    font-size: 15px;
+    
 }
-.text-content > div a svg{
+.text-content > div button:hover{
+    cursor: pointer;
+}
+
+.text-content > div button svg{
     width:20%;
 }
 .text-content .work{
