@@ -9,7 +9,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='Portfolio/' element={<Portfolio/>}/>
-        <Route path='Portfolio/work' element={<Work/>}/>
+        <Route path='Portfolio/Portfolio/work' element={<Work/>}/>
       </Routes>
     </HashRouter>
     </>
