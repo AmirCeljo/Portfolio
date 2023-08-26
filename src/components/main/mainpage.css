@@ -1,0 +1,109 @@
+.mainpage{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+}
+
+.mainpage-content{
+    width: 80%;
+    height: 100%;;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.mainpage-content .content{
+    width:100%;
+    /* line-height: 4rem; */
+    padding-top: 8%;
+}
+
+.mainpage-content span{
+    display: block;
+    width: 100%;
+    font-size:60px;
+    font-weight: 600;
+    color: white;
+    line-height: 3rem;
+    
+}
+.mainpage-content p {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.mainpage-content a{
+    padding:15px 25px;
+    color: rgb(19, 0, 128);
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.portfolio-img {
+    width: 350px;
+
+    height: 300px;
+    border-radius:  30% 70% 60% 30% / 60% 50% 30% ;
+    /* margin-right: 2%; */
+    position: relative;
+    
+}
+.portfolio-img .img{
+   
+    width: 90%;height: 100%;
+    border-radius:  30% 70% 60% 30% / 60% 50% 30% ;
+    background: url('../../../public/amirnobg.png') no-repeat center center/cover;
+    
+    position: absolute;
+    top: 0;
+}
+.portfolio-img .graph{
+    
+    
+    transform: translate(-15%,-22%);
+    width: 550px;
+    height:550px;
+    background: url('../../../public/graph.png') no-repeat center center/cover;
+}
+
+@media screen and (max-width: 567px) {
+    .mainpage-content{
+        width: 90%;
+        flex-direction: column;
+       
+        padding-top: 10%;
+    }
+    .mainpage-content span{
+        font-size: 45px;
+        text-align: left;
+    }
+    .mainpage-content p {
+        margin-bottom: 12%;
+    }
+    .portfolio-img {
+        width: 300px;
+        height:300px;
+        margin-top: 12%;
+    }
+    .portfolio-img .img{
+        width:70%;
+        height: 70%;
+        margin-left: 40%;
+    }
+    .portfolio-img .graph{
+    transform: translate(20%,-10%);
+
+        width:350px;
+        height: 350px;
+    }
+    .mainpage-content a{
+        padding:15px 25px;
+        color: rgb(19, 0, 128);
+        background-color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 10%;
+       
+    }
+}

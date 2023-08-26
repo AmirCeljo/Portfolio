@@ -1,0 +1,145 @@
+.brief-content{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brief-content > div{
+    width:100%;
+    height: 100%;
+ 
+}
+
+.code-quality .codeq-package {
+    margin-left: 20%;
+    margin-top: 18%;
+    
+}
+.code-quality .codeq-package div{
+    display: flex;
+    gap:10px;
+    font-size: 50px;
+    margin-top: 5%;
+    color: blue;
+}
+
+.code-quality h1{
+    background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+    background-clip: text;
+    color: transparent;
+    font-size: 65px;
+    margin-bottom: 7%;
+   
+}
+
+.code-quality p{
+    width: 90%;
+}
+
+.software-development{
+    background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+    /* border-top-left-radius: 100px ; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+   
+
+}
+.software-development .softwared-package{
+    padding-left: 15%;
+    margin-top: 0%;
+    padding-bottom: 17%;
+ 
+}
+
+.software-development .softwared-package div{
+    display: flex;
+    gap:10px;
+    font-size: 50px;
+    margin-top: 5%;
+    color:white;
+}
+
+.software-development h1{
+    color:white;
+    font-size: 65px;
+    margin-bottom: 7%;
+}
+
+.software-development p{
+    width: 80%;
+    color: white;
+}
+
+
+@media screen and (max-width:567px){
+    .brief-content{
+        width:100%;
+        height: 100%;
+        flex-direction: column;    
+        gap:50px;
+    
+    }
+
+    .code-quality{
+        background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+        padding-bottom: 15%;
+        margin:0px 10px;
+        /* border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px; */
+
+    }
+    .code-quality h1{
+        color: white;
+        margin-bottom: 7%;
+       
+    }
+    .code-quality p {
+        color:white;
+    }
+    .software-development h1{
+        background-image: linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+        background-clip: text;
+        color: transparent;
+        font-size: 65px;
+        font-size: 65px;
+        margin-bottom: 7%;
+    }
+
+    .software-development{
+        background-image: none;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+       
+    
+    }
+    .decoration-img{
+        display: none;
+    }
+    .code-quality .codeq-package div{
+        display: flex;
+        gap:10px;
+        font-size: 50px;
+        margin-top: 5%;
+        color:white;
+    }
+    .software-development .softwared-package div{
+        display: flex;
+        gap:10px;
+        font-size: 50px;
+        margin-top: 5%;
+        color:rgb(102, 0, 255);
+    }
+    
+    .software-development .softwared-package p{
+        color: black;
+        
+    }
+}
