@@ -76,6 +76,11 @@
     width:100%;
     height: 100%;
 }
+.projects .result-grid .amir{
+    background:url('../../public/amirweb.png') no-repeat center center/cover;
+    width:100%;
+    height: 100%;
+}
 .projects .result-grid .coffee{
 }
 .projects .result-grid .lambo{

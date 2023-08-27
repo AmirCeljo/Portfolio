@@ -11,6 +11,8 @@ const Work = () => {
   link:'https://forspace.ba'},
     {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI and deploy',projectname:'Asa Šped Website',
   link:'https://asa-sped.ba'},
+    {class:'amir scale',classColor:'yellow',subheadingwork:'Design UI and content author',projectname:'Amir Website',
+    link:'http://amirceljo.github.io/Portfolio'},
     {class:'coffee scale',classColor:'green'},
     {class:'agency scale',classColor:'gradient'},
     {class:'lambo scale',classColor:'yellow'}
