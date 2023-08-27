@@ -89,11 +89,12 @@
     .portfolio-img .img{
         width:75%;
         height: 70%;
-        margin-left: 0%;
+        margin-left: -5%;
+        margin-top: 12%;
         
     }
     .portfolio-img .graph{
-    transform: translate(-20%,-15%);
+    transform: translate(-20%,-5%);
         /* background-color: white; */
         width:400px;
         height: 350px;
