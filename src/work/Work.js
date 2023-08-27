@@ -11,13 +11,13 @@ const Work = () => {
   link:'https://forspace.ba'},
     {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI',projectname:'Asa Šped Website',
   link:'https://asa-sped.ba'},
-   
+  {class:'coffee scale',classColor:'green',subheadingwork:'Designed, in development',projectname:'Roastbean Coffeshop Mobile App',
+  link:''},
   
     {class:'agency scale',classColor:'yellow',
     subheadingwork:'Designed UI and developed backend',projectname:'Real Estate Agency',
     link:'https://amir-zavrsni-projekat-react-js.netlify.app/'},
-    {class:'coffee scale',classColor:'green',subheadingwork:'Designed, in development',projectname:'Roastbean Coffeshop Mobile App',
-    link:''},
+    
     // {class:'lambo scale',classColor:'green'},
     {class:'amir scale',classColor:'yellow',subheadingwork:'Design UI and content author',projectname:'Amir Website',
     link:'http://amirceljo.github.io/Portfolio'},
