@@ -7,15 +7,20 @@ const Work = () => {
     window.scrollTo(0,0);
   })
   const work = [
-    {class:'forspace scale',classColor:'gradient',subheadingwork:'design UI and deploy',projectname:'Forspace Solutions Website',
+    {class:'forspace scale',classColor:'gradient',subheadingwork:'Design UI and deployed to web hosting',projectname:'Forspace Solutions Website',
   link:'https://forspace.ba'},
-    {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI and deploy',projectname:'Asa Šped Website',
+    {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI',projectname:'Asa Šped Website',
   link:'https://asa-sped.ba'},
+   
+  
+    {class:'agency scale',classColor:'yellow',
+    subheadingwork:'Designed UI and developed backend',projectname:'Real Estate Agency',
+    link:'https://amir-zavrsni-projekat-react-js.netlify.app/'},
+    {class:'coffee scale',classColor:'green',subheadingwork:'Designed, in development',projectname:'Roastbean Coffeshop Mobile App',
+    link:''},{class:'lambo scale',classColor:'green'},
     {class:'amir scale',classColor:'yellow',subheadingwork:'Design UI and content author',projectname:'Amir Website',
     link:'http://amirceljo.github.io/Portfolio'},
-    {class:'coffee scale',classColor:'green'},
-    {class:'agency scale',classColor:'gradient'},
-    {class:'lambo scale',classColor:'yellow'}
+    
     
   ]
 
