@@ -87,14 +87,15 @@
         margin-top: 12%;
     }
     .portfolio-img .img{
-        width:70%;
+        width:75%;
         height: 70%;
-        margin-left: 40%;
+        margin-left: 0%;
+        
     }
     .portfolio-img .graph{
-    transform: translate(20%,-10%);
-
-        width:350px;
+    transform: translate(-20%,-15%);
+        /* background-color: white; */
+        width:400px;
         height: 350px;
     }
     .mainpage-content a{

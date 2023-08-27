@@ -1,9 +1,11 @@
 import React from 'react'
 import './work.css'
 import { Link } from 'react-router-dom'
-
+import { useEffect } from 'react'
 const Work = () => {
-
+  useEffect(() => {
+    window.scrollTo(0,0);
+  })
   const work = [
     {class:'forspace',classColor:'gradient',subheadingwork:'design UI and deploy',projectname:'Forspace Solutions Website',
   link:'https://forspace.ba'},
