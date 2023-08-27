@@ -95,4 +95,7 @@
     .projects .result-grid .scale{
         transform: scale(.9);
     }
+    .projects .result-grid h3{
+        margin-top: 8%;
+    }
 }
