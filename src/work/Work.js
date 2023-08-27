@@ -7,13 +7,13 @@ const Work = () => {
     window.scrollTo(0,0);
   })
   const work = [
-    {class:'forspace',classColor:'gradient',subheadingwork:'design UI and deploy',projectname:'Forspace Solutions Website',
+    {class:'forspace scale',classColor:'gradient',subheadingwork:'design UI and deploy',projectname:'Forspace Solutions Website',
   link:'https://forspace.ba'},
-    {class:'asa',classColor:'yellow',subheadingwork:'Design UI and deploy',projectname:'Asa Šped Website',
+    {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI and deploy',projectname:'Asa Šped Website',
   link:'https://asa-sped.ba'},
-    {class:'coffee',classColor:'green'},
-    {class:'agency',classColor:'gradient'},
-    {class:'lambo',classColor:'yellow'}
+    {class:'coffee scale',classColor:'green'},
+    {class:'agency scale',classColor:'gradient'},
+    {class:'lambo scale',classColor:'yellow'}
     
   ]
 

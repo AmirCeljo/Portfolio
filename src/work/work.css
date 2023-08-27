@@ -68,6 +68,7 @@
     background:url('../../public/asasped.png') no-repeat center center/cover;
     width:100%;
     height: 100%;
+
     
 }
 .projects .result-grid .forspace{
@@ -90,5 +91,11 @@
     .projects .result-grid{
         margin-top: 10%;
         grid-template-columns: repeat(1,1fr);
+    }
+    .projects .result-grid .scale
+   {
+        
+        
+        transform: scale(.9);
     }
 }
