@@ -62,6 +62,7 @@
     font-size: 50px;
     margin-top: 5%;
     color:white;
+    width:80%;
 }
 
 .software-development h1{
@@ -141,5 +142,18 @@
     .software-development .softwared-package p{
         color: black;
         
+    }
+    .software-development .softwared-package{
+        padding-left: 0%;
+        width: 90%;
+        margin: auto;
+        
+     
+    }
+    .code-quality .codeq-package {
+        margin-left: 0%;
+        width: 90%;
+        margin: auto;
+        margin-top: 9% ;
     }
 }

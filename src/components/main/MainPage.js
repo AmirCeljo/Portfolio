@@ -13,7 +13,7 @@ const MainPage = () => {
                 <Link to='/'>Lets work together</Link>
             </div>
             <div className='portfolio-img'>
-                <div className="graph"></div>
+                {/* <div className="graph"></div> */}
                 <div className='img'></div>
             </div>
         </div>
