@@ -1,0 +1,38 @@
+.blog{
+    width:80%;
+    margin: auto;
+    padding-top:7%;
+}
+.blog-h{
+    background-image: linear-gradient(to right, rgb(61, 61, 233),rgb(93, 0, 255),rgb(60, 0, 255));
+    background-clip: text;
+    color: transparent;
+   
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.blog .articles{
+    font-size: 60px;
+}
+
+.blog-content{
+    width:100%;
+
+    margin-top: 10%;
+}
+.blog-content div {
+    padding: 10px 5px 15px 5px;
+    
+    width:60%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid gray;
+}
+
+.blog-content a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+   
+}
