@@ -1,7 +1,9 @@
 import React from 'react'
 import './brief.css'
 import {FaReact,FaJava, FaSass, FaLess} from 'react-icons/fa'
-import {SiCsharp} from 'react-icons/si'
+// import {SiCsharp} from 'react-icons/si'
+import {BiLogoFlutter} from 'react-icons/bi'
+
 const Brief = () => {
 
     const brief = [
@@ -23,7 +25,7 @@ const Brief = () => {
                     <p>{item.p}</p>
                     {index === 0 ? <div><FaSass/><FaLess/></div> : <div><FaReact/>
                     
-                    <SiCsharp/>
+                    <BiLogoFlutter/>
                     <FaJava/></div>}
                 </div>
             </div>
