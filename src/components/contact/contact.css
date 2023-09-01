@@ -1,0 +1,124 @@
+.contact{
+    width:100%;
+    height: 100%;
+    
+}
+.contact-content{
+    padding:20px;
+}
+.contact-heading{
+    padding-top:10%;
+    text-align: center;
+    width:36% ;
+    margin: auto;
+}
+.contact-heading h1{
+    color: blue;
+}
+.contact-heading h3{
+    margin-top: 2% ;
+    color: gray;
+}
+.form{
+    width:36%;
+    margin: auto;
+    margin-top: 3%;
+}
+.form .form-group{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form .form-group > div{
+    width:100%;
+}
+.form .form-group > div input{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+.form .form-group > div input:focus{
+   outline: none;
+   border-bottom: 1px solid blue;
+}
+
+.textarea-group{
+    margin-top: 5%;
+}
+.textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10%;
+    padding-top: 10px;
+
+}
+.textarea:focus{
+    outline: none;
+    border-bottom: 1px solid blue;
+}
+
+.input-box{
+    width:100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.input-box button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    background-image:  linear-gradient(to right, rgb(84, 84, 167),rgb(93, 0, 255),rgb(60, 0, 255));
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.input-box button svg{
+    width:60px;
+}
+
+hr{
+    margin-bottom: 4%;
+}
+
+.contact-information{
+    width:100%;
+    padding:20px 0px;
+    /* background-color: rgb(255, 242, 250); */
+    border-radius: 10px;
+}
+.contact-information h3{
+    margin-bottom: 2.5%;
+    /* color: rgb(100, 239, 161); */
+    color: green;
+    
+
+}
+.contact-information > div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:567px) {
+    .form{
+        width:95%;
+        margin-top: 10%;
+    }
+    .contact-heading{
+        width: 95%;
+        text-align: left;
+        padding-top: 0%;
+        padding-top: 2%;
+    }
+}
