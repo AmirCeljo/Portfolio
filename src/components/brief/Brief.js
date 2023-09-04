@@ -23,10 +23,10 @@ const Brief = () => {
                 <div className={item.innerclass}>
                     <h1>{item.heading}</h1>
                     <p>{item.p}</p>
-                    {index === 0 ? <div><FaSass/><FaLess/></div> : <div><FaReact/>
+                    {/* {index === 0 ? <div><FaSass/><FaLess/></div> : <div><FaReact/>
                     
                     <BiLogoFlutter/>
-                    <FaJava/></div>}
+                    <FaJava/></div>} */}
                 </div>
             </div>
         ) )}

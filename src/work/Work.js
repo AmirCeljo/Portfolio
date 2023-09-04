@@ -11,6 +11,8 @@ const Work = () => {
     {class:'asa scale',classColor:'yellow',subheadingwork:'Design UI',projectname:'Asa Šped Website',link:'https://asa-sped.ba'},
     {class:'coffee scale',classColor:'green',subheadingwork:'Designed, in development',projectname:'Roastbean Coffeshop Mobile App',link:''},
     {class:'agency scale',classColor:'yellow',subheadingwork:'Designed UI and developed backend',projectname:'EstateSelect Agency',link:'https://estate-select.netlify.app/'},
+    {class:'banking scale',classColor:'gradient',subheadingwork:'Frontend UI in Flutter',projectname:'BankingApp',link:''},
+
     {class:'amir scale',classColor:'yellow',subheadingwork:'Design UI and content author',projectname:'Amir Website',link:'http://amirceljo.github.io/Portfolio'},
   ]
 
